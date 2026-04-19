@@ -285,7 +285,7 @@ export function Viewport({
 
           <Canvas
             camera={{ position: [4.2, 2.4, 5.4], fov: 42 }}
-            gl={{ antialias: true, toneMapping: THREE.ACESFilmicToneMapping, toneMappingExposure: 1.06, outputEncoding: THREE.sRGBEncoding }}
+            gl={{ antialias: true, toneMapping: THREE.ACESFilmicToneMapping, toneMappingExposure: 1.06, colorSpace: 'srgb' }}
           >
             <fog attach="fog" args={["#05070d", 8, 22]} />
             <CinemaAssembly wireframe={wireframe} />
