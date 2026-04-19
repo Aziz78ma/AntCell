@@ -298,9 +298,10 @@ export function Viewport({
             <OptionalComposer />
           </Canvas>
 
-          {/* Visual overlays (scanlines, film grain, vignette) */}
+          {/* Visual overlays (scanlines, film grain, vignette, color grade) */}
           <div className="pointer-events-none absolute inset-0 scanlines opacity-25" />
           <div className="pointer-events-none absolute inset-0 film-grain opacity-30" />
+          <div className="pointer-events-none absolute inset-0 color-grade" />
           <div className="pointer-events-none absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent mix-blend-multiply" />
 
           <div className="pointer-events-none absolute left-4 top-4 flex gap-2">
