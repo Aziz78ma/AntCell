@@ -1,0 +1,31 @@
+As the Style & Mood Guardian, I'll ensure that our team maintains a consistent visual style and mood throughout the project. To achieve this, I'll work closely with Bao, Concept Artist, to develop concept art pieces that capture the essence of Ghibli's signature themes.
+
+**Visual Style:**
+
+Our goal is to create a Ghibli-inspired art style that blends traditional Chinese brushwork with digital media. To maintain consistency, we'll focus on the following visual elements:
+
+1. **Color Palette:** Develop a color scheme that reflects the serenity and majesty of the bamboo forest. Consider using earthy tones, such as greens, browns, and tans, to create a natural atmosphere.
+2. **Character Design:** Ensure Ling's design is consistent with traditional Chinese aesthetics while maintaining Ghibli's signature charm. Think delicate features, flowing lines, and expressive facial expressions.
+3. **Environmental Art:** Incorporate intricate details in the bamboo forest, such as wispy vines, subtle lighting effects, and natural textures to create an immersive environment.
+
+**Mood and Emotion:**
+
+To capture the emotional essence of our story, we'll focus on conveying Ling's curiosity, wonder, and concern through various visual elements:
+
+1. **Lighting:** Employ soft, warm lighting to evoke a sense of serenity during Act 1. As the AI emerges in Act 2, incorporate more dramatic lighting effects to convey tension and uncertainty.
+2. **Composition:** Balance composition to create visually appealing scenes that guide the viewer's attention through the story.
+3. **Animation:** Use subtle animations to emphasize Ling's emotions, such as her eyes widening with wonder or her hands trembling with concern.
+
+**Style Guide:**
+
+To maintain consistency throughout the project, I'll develop a comprehensive style guide outlining key visual elements, color palette, and design decisions made during this phase. This will ensure that our entire team is on the same page regarding our visual direction.
+
+**Delegate Tasks:**
+
+* Assign Concept Artist Bao to review my feedback and iterate on their concept art pieces.
+* Work closely with Story Architect to integrate the style guide into the narrative development process.
+
+**Task Status:**
+
+* Task 1 (Script and Storyboard): Complete
+* Task 2 (Concept Art Development): In Progress

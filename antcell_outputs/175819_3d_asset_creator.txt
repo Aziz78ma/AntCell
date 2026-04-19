@@ -1,0 +1,47 @@
+As the 3D Asset Creator, I'll provide detailed specifications for the panda character, environment, props, textures, materials, rigging, and export requirements.
+
+**Panda Character:**
+
+* **Model:** Create a high-poly model (at least 100k polygons) of the panda with a focus on detailed texture mapping and rigging.
+* **Texture Mapping:**
+	+ Normal maps to enhance fur texture
+	+ Displacement maps for realistic fur simulation
+	+ Texture atlases for efficient texture management
+* **Rigging System:** Implement a skeleton-based rigging system using Blender's built-in rigging tools or Unreal Engine's rigging features.
+* **Animation Ready:** Ensure the model is animation-ready, with a clean and optimized mesh, and a well-organized rig.
+
+**Environment:**
+
+* **Bamboo Forest:** Create a detailed bamboo forest environment, inspired by traditional Chinese culture and Ghibli's signature themes.
+* **Prop Models:** Develop prop models for the environment, such as bamboo stalks, leaves, and rocks.
+* **Texture Mapping:** Apply texture mapping techniques to create realistic materials and textures for the environment props.
+
+**Props:**
+
+* **Ancient Artifact:** Create a detailed model of the ancient artifact, which Ling discovers in the bamboo forest.
+* **Other Props:** Develop additional prop models that fit within the environment, such as lanterns or traditional Chinese decorations.
+
+**Textures and Materials:**
+
+* **Panda Fur Texture:** Create a high-resolution texture for the panda's fur, using techniques like normal mapping, displacement maps, and texture blending.
+* **Environment Textures:** Develop textures for the bamboo forest environment, including grass, leaves, and tree bark.
+* **Materials:** Define materials for each prop and environment element, using PBR (Physically Based Rendering) principles.
+
+**Export Requirements:**
+
+* **Blender Compatibility:** Ensure all 3D assets are export-ready for Blender, with proper formatting and organization.
+* **Unreal Engine Compatibility:** Prepare assets for Unreal Engine, following the engine's specific export requirements and guidelines.
+
+**Software Used:**
+
+* **Blender:** Primary 3D modeling and rigging software
+* **Unreal Engine:** Secondary software for export and compatibility testing
+
+**Timeline:**
+
+* Day 1-2: Develop panda character model and texture mapping
+* Day 3-4: Create environment prop models and texture mapping
+* Day 5-6: Implement rigging system and animation-ready preparation
+* Day 7-8: Finalize textures, materials, and export requirements
+
+By following these specifications, I'll ensure the creation of high-quality 3D assets that meet the project's requirements and contribute to a breathtaking Ghibli-inspired animated short.

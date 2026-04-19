@@ -1,0 +1,49 @@
+As the Motion Specialist, my task is to plan detailed character animations, physics simulations, facial expressions, dynamic movements, and interactions that feel alive and natural in 3D.
+
+**Detailed Breakdown:**
+
+1. **Character Animation:**
+	* Develop keyframe animation for Ling's curiosity and wonder as she discovers the AI.
+	* Create a believable and emotive animation for her interaction with the ancient artifact.
+	* Incorporate subtle movements, such as blinking and breathing, to add depth to the character.
+2. **Facial Expressions:**
+	* Design a range of facial expressions that convey Ling's emotions throughout the scene.
+	* Use a combination of keyframe animation and physics simulations to create realistic facial movements.
+3. **Physics Simulations:**
+	* Create realistic interactions between Ling and her environment, such as gentle bamboo swaying in the wind.
+	* Use physics engines to simulate subtle effects like fur texture deformation and particle reactions.
+4. **Dynamic Movements:**
+	* Choreograph dynamic movement sequences that capture Ling's curiosity and playfulness.
+	* Incorporate fluid motion, such as running or jumping, to convey a sense of energy and wonder.
+5. **Interactions:**
+	* Design intuitive interactions between Ling and the ancient artifact, conveying her discovery and exploration.
+	* Use physics simulations to create realistic responses to her touch and manipulation.
+
+**Software Utilization:**
+
+1. **Blender:** Primary 3D modeling and animation software for character development and rigging.
+2. **Unreal Engine:** Secondary software for post-production, lighting, and visual effects.
+3. **Maya or 3ds Max:** Optional use for complex simulations, such as fluid dynamics or rigid body physics.
+
+**Software-Specific Tasks:**
+
+1. **Blender:**
+	* Create a high-poly character model with detailed texture mapping and rigging.
+	* Set up keyframe animation for Ling's movements and interactions.
+2. **Unreal Engine:**
+	* Implement lighting, materials, and effects to enhance the visual fidelity of the scene.
+	* Utilize physics simulations to create realistic interactions between objects.
+
+**Quality Control Points:**
+
+1. **Review animation consistency:** Ensure that all animations, including facial expressions and body movements, are consistent with the Ghibli-inspired art style.
+2. **Check for technical feasibility:** Verify that all software tools and techniques used align with the project's requirements and scope.
+3. **Evaluate emotional impact:** Assess whether the animation effectively conveys Ling's curiosity, wonder, and understanding of AI.
+
+**Timeline:**
+
+* Day 1-3: Develop keyframe animation and rigging systems in Blender
+* Day 4-6: Implement physics simulations and dynamic movements in Unreal Engine
+* Day 7-10: Finalize post-production, lighting, and visual effects
+
+Let's work together to create a captivating 3D animated short that showcases Ling's discovery of AI in a Ghibli-inspired world.

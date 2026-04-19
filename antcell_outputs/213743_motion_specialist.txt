@@ -1,0 +1,64 @@
+As the Motion Specialist, I'll be responsible for planning animations, physics, and facial expressions for "Panda's Awakening". Here are my tasks and deliverables:
+
+**Task 1: Animation Planning (3 days)**
+
+* Review the refined script and storyboard to understand the character's emotions and actions.
+* Plan keyframe animations for Ling's interactions with the AI, focusing on capturing her curiosity, wonder, and eventual understanding of AI.
+
+Deliverables:
+
+* Keyframe animation plan for Act 1-3
+* Secondary animation tasks, such as water and fire effects
+
+**Task 2: Facial Expression Planning (5 days)**
+
+* Create a facial expression chart to capture Ling's emotions throughout the story.
+* Plan specific facial expressions for key scenes, ensuring consistency with Ghibli-inspired art style.
+
+Deliverables:
+
+* Facial expression chart
+* Planned facial expressions for Act 1-3
+
+**Task 3: Physics Planning (5 days)**
+
+* Determine the physics interactions between Ling and the AI, such as the artifact's movement and the AI's response.
+* Plan realistic simulations to enhance the animation's authenticity.
+
+Deliverables:
+
+* Physics simulation plan
+* Planned physics interactions for Act 1-3
+
+**Task 4: Animation Setup (10 days)**
+
+* Set up keyframe animations in Blender or Unreal Engine, using the planned keyframes as a reference.
+* Focus on capturing Ling's curiosity, wonder, and eventual understanding of AI.
+
+Deliverables:
+
+* Keyframe animation setup for Act 1-3
+* Secondary animation tasks, such as water and fire effects
+
+**Task 5: Final Animation Review (2 days)**
+
+* Review the final animated short to ensure it meets expectations.
+* Make any necessary adjustments to animations, facial expressions, or physics simulations.
+
+Deliverables:
+
+* Final reviewed animation
+* List of suggested improvements for future projects
+
+Timeline:
+
+* Day 1-3: Animation planning and facial expression chart creation
+* Day 4-8: Physics simulation plan and keyframe animation setup
+* Day 9-15: Review and final adjustments to animations, facial expressions, and physics simulations
+
+**Milestones**
+
+* Daily progress meetings with the team to discuss challenges and solutions.
+* Regular review of deliverables to ensure they meet expectations.
+
+By following this plan, I'm confident that we'll create a stunning 30-second animated short in Ghibli style that showcases Ling's discovery of AI for the first time. Let's get started!

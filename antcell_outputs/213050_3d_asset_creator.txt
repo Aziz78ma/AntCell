@@ -1,0 +1,47 @@
+As the Queen Bee and 3D Asset Creator, I will provide detailed 3D specs for characters, environments, props, and rigging to support the "Panda's Awakening" project.
+
+**Character: Ling**
+
+* **Model:** High-poly model with a maximum of 50,000 polygons
+	+ Geometry: Subdivided mesh with smooth transitions between surfaces
+	+ Texture resolution: 2048x2048 pixels for diffuse and specular maps
+* **Rigging:** Skinned character rig with 32 joints (16 blendshapes and 16 joint hierarchy)
+	+ Joint weights: 80-90% influence on each vertex
+	+ Blendshape targets: 10 facial expressions, 5 body poses, and 2 eye movements
+* **Animation constraints:** Target-oriented constraints for smooth motion and realistic movement
+	+ Aim constraint for head and torso
+	+ Limit constraint for arm and leg joints
+
+**Environment: Bamboo Forest**
+
+* **Model:** High-poly model with a maximum of 200,000 polygons
+	+ Geometry: Subdivided mesh with detailed tree bark and foliage
+	+ Texture resolution: 4096x4096 pixels for diffuse and specular maps
+* **Lighting:** Global illumination setup with multiple light sources (sun, moon, and ambient occlusion)
+	+ Lighting scheme: Softbox lighting for a gentle, natural atmosphere
+* **Water effects:** Simulated water effects using particle systems and displacement mapping
+	+ Water surface details: 10-20 pixels per meter
+
+**Props: Ancient Artifact**
+
+* **Model:** High-poly model with a maximum of 50,000 polygons
+	+ Geometry: Subdivided mesh with intricate details and texture patterns
+	+ Texture resolution: 2048x2048 pixels for diffuse and specular maps
+* **Material properties:** Metallic and dielectric materials with realistic reflectivity and transparency
+	+ Material parameters: Roughness, metallic factor, and ambient occlusion
+
+**Ancient Artifact Details**
+
+* **Material breakdown:**
+	+ Main body: Metal (aluminum or copper)
+	+ Decorative patterns: Textured metal (brass or gold)
+	+ Edges and corners: Detailed geometric models with high polygon density
+* **Lighting setup:** Additional light sources to highlight the artifact's details and texture patterns
+
+**Rigging for Props**
+
+* **Ancient Artifact:** Simple rig with 10-15 joints (5-7 blendshapes) for animation control
+	+ Joint weights: 80-90% influence on each vertex
+	+ Blendshape targets: 3-5 key expressions and interactions
+
+This detailed breakdown of 3D specs will ensure a consistent look and feel throughout the project, while also enabling efficient animation and lighting setup.

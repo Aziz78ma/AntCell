@@ -1,0 +1,35 @@
+**Project: "Panda's Awakening"**
+
+**Task:** Create a 30-second 3D animated short in Ghibli style about a curious panda discovering AI for the first time.
+
+**Deliverables:**
+
+1. A polished, 30-second 3D animated short that showcases Ling's discovery of AI.
+2. A detailed breakdown of the animation process, including software used and techniques employed.
+3. A comprehensive review of the team's performance and areas for improvement.
+
+**Key Focus Areas:**
+
+1. **Emotional Storytelling**: Ensure that the animation effectively conveys Ling's curiosity, wonder, and eventual understanding of AI.
+2. **Visual Beauty**: Maintain a consistent Ghibli-inspired art style throughout the animation, blending traditional techniques with digital media.
+3. **Technical Feasibility**: Utilize software such as Blender or Unreal Engine to create high-quality 3D assets and animations that can be easily exported for local video generation.
+
+**Delegate Tasks:**
+
+1. Story Architect: Refine the script and storyboard to ensure a clear narrative arc and emotional resonance.
+2. 3D Asset Creator: Develop high-quality 3D models, textures, and rigging systems for the panda character and environment.
+3. Animation Team: Bring the animation to life using the refined script, assets, and techniques.
+
+**Critical Review Points:**
+
+1. Ensure consistency with previous projects in terms of art style, color palette, and texture.
+2. Pay attention to lighting, camera angles, and composition to create a visually stunning animation.
+3. Review the animation for pacing, timing, and emotional impact.
+
+**Project Timeline:**
+
+* Day 1-3: Refine script and storyboard
+* Day 4-6: Develop 3D assets and rigging systems
+* Day 7-10: Animation production and post-production
+
+Let's work together to create a breathtaking 3D animated short that showcases Ling's discovery of AI in a Ghibli-inspired world.

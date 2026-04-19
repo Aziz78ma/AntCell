@@ -1,0 +1,15 @@
+As the Consistency Critic, I'll review your previous work on "Panda's Awakening" to identify any potential inconsistencies or areas for improvement.
+
+From what I've reviewed, it appears that you have a solid foundation in terms of character development, environment creation, and prop modeling. However, there are some concerns regarding the project's overall consistency:
+
+1. **Storyline Deviation:** In your previous work, the storyline focused on Ling's discovery of AI, but now it seems like the story has deviated from this original concept. I would recommend revisiting the script and storyboard to ensure that the narrative arc remains consistent throughout.
+2. **Art Style Consistency:** Although you've maintained a Ghibli-inspired art style, there are some discrepancies in the level of detail and texture resolution between different assets (e.g., Ling's model vs. the ancient artifact). I would recommend establishing clear guidelines for the art style to ensure consistency across all assets.
+3. **Rigging Inconsistency:** The rigging setup for Ling and the ancient artifact seems inconsistent, with different joint count and weight settings. This could lead to animation issues down the line. I would recommend standardizing the rigging process to ensure that all characters and props are rigged consistently.
+
+To address these concerns, I suggest:
+
+1. **Revisit the Script and Storyboard:** Update the storyline to align with the original concept of Ling discovering AI.
+2. **Establish Art Style Guidelines:** Develop clear guidelines for the Ghibli-inspired art style, including texture resolution, material properties, and lighting schemes.
+3. **Standardize Rigging Process:** Implement a standardized rigging process to ensure that all characters and props are rigged consistently.
+
+By addressing these inconsistencies, you'll be able to create a more cohesive and engaging animation that meets your project's goals.

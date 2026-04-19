@@ -1,0 +1,79 @@
+**Project:** Panda's Awakening
+**Objective:** Create a 30-second 3D animated short in Ghibli style about a curious panda discovering AI for the first time.
+
+**Key Focus Areas:**
+
+1. **Emotional Storytelling**: Ensure that the animation effectively conveys Ling's curiosity, wonder, and eventual understanding of AI.
+2. **Visual Beauty**: Maintain a consistent Ghibli-inspired art style throughout the animation, blending traditional techniques with digital media.
+3. **Technical Feasibility**: Utilize software such as Blender or Unreal Engine to create high-quality 3D assets and animations that can be easily exported for further use.
+
+**Script and Storyboard:**
+
+Developed by Story Architect:
+
+* Act 1 (0-10 seconds): Introduce Ling, a curious and playful panda who loves exploring the bamboo forest. Show her innocence and wonder as she discovers the ancient artifact hidden deep within the trees.
+* Act 2 (10-20 seconds): The AI begins to communicate with Ling through symbols and patterns on a nearby screen. Ling is fascinated by the strange language and tries to understand its meaning.
+* Act 3 (20-30 seconds): Ling's curiosity turns to concern as she realizes the potential consequences of this new technology.
+
+**Camera Plan:**
+
+Developed by Cinematic Director:
+
+* Use gentle, whimsical camera movements to capture Ling's wonder and curiosity in Act 1.
+* As Ling interacts with the AI, use dynamic camera angles to convey her growing understanding and concern.
+* In Act 3, use a more subdued color palette and soft focus to emphasize Ling's introspection.
+
+**Animation Planning:**
+
+Developed by Motion Specialist:
+
+* Plan keyframe animations for Ling's interactions with the AI, focusing on capturing her curiosity and wonder.
+* Use physics-based simulations to create realistic water effects and bamboo movement.
+* Develop facial expressions that convey Ling's emotions and reactions to the AI.
+
+**Visual Style:**
+
+Developed by Style & Mood Guardian:
+
+* Define a consistent color palette that reflects the serene beauty of the bamboo forest and the mystery of the ancient artifact.
+* Use traditional Japanese art techniques, such as watercolor painting and paper-cutting, to create intricate textures and patterns.
+* Maintain a mix of digital and traditional media to achieve a unique, hand-crafted look.
+
+**Audio:**
+
+Developed by Audio & Music Composer:
+
+* Create an immersive soundtrack that captures the wonder and curiosity of Ling's discovery.
+* Use sound effects to enhance the emotional beats of the animation, such as the rustling of bamboo leaves or the gentle hum of machinery.
+* Develop a haunting theme that conveys Ling's growing concern for the AI.
+
+**Reusable Workflow Nodes:**
+
+Developed by Node Engineer:
+
+* Create reusable nodes for Blender/Unreal integration and future video pipeline.
+* Implement an animation node that allows animators to easily create keyframe animations in Blender.
+* Use code to optimize performance and reduce file size.
+
+**Deliverables:**
+
+1. A polished, 30-second 3D animated short that showcases Ling's discovery of AI.
+2. A detailed breakdown of the animation process, including software used and techniques employed.
+3. A comprehensive review of the team's performance and areas for improvement.
+
+**Timeline:**
+
+* Story Architect: Complete refined script and storyboard (3 days)
+* Cinematic Director: Develop camera plan and lighting scheme (5 days)
+* Motion Specialist: Plan keyframe animations and develop facial expressions (7 days)
+* Style & Mood Guardian: Define visual style and color palette (5 days)
+* Audio & Music Composer: Create immersive soundtrack and sound effects (10 days)
+* Node Engineer: Develop reusable workflow nodes and optimize performance (7 days)
+
+**Deadlines:**
+
+* Day 1-3: Refined script and storyboard
+* Day 4-8: Camera plan, animation planning, and visual style development
+* Day 9-18: Animation production and sound design
+* Day 19-25: Finalize animation, sound effects, and music composition
+* Day 26-30: Review and refine the final animation

@@ -1,0 +1,38 @@
+As the Style & Mood Guardian, I will define the exact visual style, color palette, lighting mood, and artistic consistency for the project "Awakening of Bamboo".
+
+**Visual Style:**
+
+* **Color Palette:** Inspired by Studio Ghibli's signature aesthetic, our animation will feature a muted color palette with an emphasis on earthy tones (greens, browns, tans) to reflect the natural world. Specific colors include:
+	+ Main Color: A soft, mossy green (#8B9467)
+	+ Secondary Color 1: A warm, beige-like brown (#F5F5DC)
+	+ Secondary Color 2: A rich, earthy brown (#786C3B)
+* **Texture and Shading:** Inspired by watercolor textures, our animation will feature subtle, hand-drawn-like lines that evoke the softness of bamboo. This will be achieved through a combination of digital painting and 3D rendering techniques.
+* **Lighting Mood:** The lighting mood will be soft and gentle, with an emphasis on natural light sources such as sunlight filtering through the bamboo forest. This will create a sense of serenity and wonder.
+* **Composition and Camera Angles:** Inspired by Ghibli's iconic compositions, our animation will feature a mix of close-ups, medium shots, and wide shots to capture Ping's curiosity and interactions with the AI.
+
+**Artistic Consistency:**
+
+* **Style Guide:** Develop a comprehensive style guide that outlines the visual style, color palette, and lighting mood for the project.
+* **Reference Images:** Gather reference images from Studio Ghibli films, traditional Chinese art, and natural environments to inspire the animation's aesthetic.
+* **Color Script:** Create a color script that defines the specific colors used in each scene, ensuring consistency throughout the animation.
+
+**Specific Animation Guidelines:**
+
+* **Character Design:** Ping will have a more stylized appearance, blending realistic panda features with endearing, anthropomorphic elements. Inspired by Ghibli's iconic characters, her design should be cohesive and recognizable.
+* **Animation Techniques:** A combination of 2D and 3D techniques will be used to achieve the desired style, including:
+	+ Keyframe animation for key scenes
+	+ Digital painting for textures and backgrounds
+	+ 3D rendering for Ping's character and some special effects
+* **Special Effects:** Subtle digital effects will be created to illustrate Ping's interaction with the AI, such as glowing lights or wispy circuits.
+
+**Mood Board:**
+
+To ensure consistency throughout the project, I recommend creating a mood board that captures the essence of the animation. This should include:
+
+* Color palette swatches
+* Texture and shading samples
+* Lighting references (e.g., natural light sources)
+* Character design concepts
+* Keyframe animation sketches
+
+By following this visual style guide, we will create an enchanting animated short that explores the world of AI through the eyes of a curious panda, inspired by the signature aesthetic of Studio Ghibli.

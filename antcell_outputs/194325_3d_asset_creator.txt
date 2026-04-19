@@ -1,0 +1,60 @@
+As the Queen Bee, Director of Antcell studio, I'm excited to provide detailed specs for characters, environments, props, and rigging for each project.
+
+**Project 1: The Enchanted Forest**
+
+* **Characters:**
+	+ Rosie (rabbit): Age 4-6 years old. Design a cute and curious rabbit with big eyes, fluffy fur, and a twitching nose. Use Blender to create a high-poly model with around 10,000 polygons.
+	+ Tree spirits: Create multiple tree spirit characters with different designs, each with unique personalities and expressions. Utilize Unreal Engine for dynamic lighting and animation.
+* **Environments:**
+	+ Enchanted forest: Design a whimsical environment with towering trees, twinkling lights, and vibrant flowers. Use Blender to create high-poly models with around 50,000 polygons.
+	+ Forest floor: Create a detailed forest floor with intricate textures, rocks, and foliage. Utilize Unreal Engine for dynamic lighting and animation.
+* **Props:**
+	+ Magic crystal: Design an ancient magic crystal that glows softly in the forest. Use Blender to create a high-poly model with around 5,000 polygons.
+	+ Leaves and flowers: Create realistic leaves and flowers that sway gently in the wind. Utilize Unreal Engine for dynamic animation and lighting.
+* **Rigging:**
+	+ Rosie: Create a rig for Rosie using Blender's built-in rigging tools or third-party plugins like Rigify. Ensure she has a full range of motion, including facial expressions and body language.
+	+ Tree spirits: Develop rigs for each tree spirit character, allowing them to animate and move independently.
+
+**Project 2: Luna's Quest**
+
+* **Characters:**
+	+ Luna (fox): Age 6-8 years old. Design a determined and brave fox with a crescent moon mark on her forehead. Use Unreal Engine to create high-poly models with around 10,000 polygons.
+	+ Stars and celestial bodies: Create various star and celestial body characters that Luna interacts with throughout the journey. Utilize Blender for high-poly modeling.
+* **Environments:**
+	+ Starry night sky: Design a vast, star-filled night sky with dynamic lighting effects. Use Unreal Engine to create an immersive environment with around 50,000 polygons.
+	+ Moonlit forest: Create a mystical forest illuminated by the moon's gentle light. Utilize Blender for high-poly modeling and Unreal Engine for animation.
+* **Props:**
+	+ Celestial map: Design an ancient celestial map that Luna uses to navigate her journey. Use Blender to create a high-poly model with around 5,000 polygons.
+	+ Astral compass: Create a mystical astral compass that guides Luna through the night sky. Utilize Unreal Engine for dynamic animation and lighting.
+* **Rigging:**
+	+ Luna: Develop a rig for Luna using Unreal Engine's built-in rigging tools or third-party plugins like Rigify. Ensure she has a full range of motion, including facial expressions and body language.
+
+**Project 3: The Secret Garden**
+
+* **Characters:**
+	+ Max (mouse): Age 4-6 years old. Design a shy but determined mouse with big eyes and a kind heart. Use Blender to create high-poly models with around 5,000 polygons.
+	+ Garden spirits: Create multiple garden spirit characters that help Max restore the garden. Utilize Unreal Engine for dynamic animation and lighting.
+* **Environments:**
+	+ Abandoned mansion: Design an eerie yet charming abandoned mansion with overgrown gardens. Use Blender to create high-poly models with around 50,000 polygons.
+	+ Secret garden: Create a vibrant and lush secret garden filled with flowers, trees, and wildlife. Utilize Unreal Engine for dynamic lighting and animation.
+* **Props:**
+	+ Gardening tools: Design various gardening tools that Max uses to restore the garden. Use Blender to create high-poly models with around 5,000 polygons.
+	+ Seeds and flowers: Create realistic seeds and flowers that bloom throughout the garden. Utilize Unreal Engine for dynamic animation and lighting.
+* **Rigging:**
+	+ Max: Develop a rig for Max using Blender's built-in rigging tools or third-party plugins like Rigify. Ensure he has a full range of motion, including facial expressions and body language.
+
+**Technical Requirements:**
+
+* Each project will utilize either Blender or Unreal Engine as the primary software for 3D modeling, animation, and lighting.
+* Adobe After Effects will be used for compositing and visual effects.
+* Rigging will be done using Blender's built-in rigging tools or third-party plugins like Rigify.
+* High-poly models should have around 5,000-10,000 polygons, depending on the complexity of the design.
+
+**Deliverables:**
+
+Each project will deliver a polished, 30-second 3D animated short that showcases the story's emotional resonance and visual beauty. The final animation will include:
+
+1. A detailed breakdown of the animation process, including software used and techniques employed.
+2. A comprehensive review of the team's performance and areas for improvement.
+
+I'm confident that our team can deliver these enchanting 3D animated shorts while maintaining our unique style and creative vision.

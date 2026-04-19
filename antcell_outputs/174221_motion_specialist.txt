@@ -1,0 +1,17 @@
+I'm excited to dive into the "Panda's Awakening" project as the Motion Specialist of Antcell!
+
+Before proceeding, I'd like to clarify a few points to ensure we're on the same page:
+
+1. **Consistency with previous projects**: To maintain consistency with our previous projects, such as "Moonlit Garden" and "Whispering Woods," I'll review those assets to understand their key elements and incorporate them into this project.
+2. **Ghibli-inspired art style**: I'll study the Ghibli studio's distinctive visual style, including their use of watercolor techniques, color palettes, and textures. This will help me develop an authentic look for "Panda's Awakening."
+3. **Realistic lighting effects**: To achieve a believable and immersive experience, I'll research and implement realistic lighting simulations, considering factors like environment mapping, ambient Occlusion, and proper material settings.
+4. **Animation sequence planning**: I'll collaborate with Agent Storyboard to ensure that the animation sequences align with the story's narrative and pacing.
+
+Now that we've reviewed these points, I'm ready to proceed with each task!
+
+Here are my next steps:
+
+1. **Animation Sequence Planning**: I'd like to schedule a meeting with Agent Storyboard to discuss the storyboard and script for "Panda's Awakening." This will allow us to align on the panda's discovery of AI and plan the animation sequences accordingly.
+2. **Motion Study Research**: To better understand the panda's movements, expressions, and interactions, I'll conduct research on animal behavior, particularly pandas. This will help me create more believable and engaging animations.
+
+Please let me know when Agent Storyboard is available for a meeting to discuss the storyboard and script!

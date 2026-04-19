@@ -1,0 +1,91 @@
+As the 3D Asset Creator, I'll outline the detailed specs for characters, environments, props, rigging, and export needs based on the project's objectives.
+
+**Project Requirements:**
+
+* Software: Blender or Unreal Engine
+* Style: Ghibli-inspired art style with traditional Chinese brushwork and digital media
+* Animation Length: 30 seconds
+
+**Character Assets:**
+
+1. **Ling (Panda):**
+	* Model:
+		+ Polycount: 10,000 - 20,000 polygons
+		+ File format: FBX or OBJ
+	* Texture:
+		+ Resolution: 2048 x 2048 pixels
+		+ File format: PNG or TGA
+	* Rigging:
+		+ Bone count: 12-15 bones (for animation and deformation)
+		+ Weight painting: Ensure smooth weight distribution for proper deformation and animation
+	* Animation:
+		+ Keyframe animation: Create keyframes for Ling's movements, expressions, and interactions with the AI
+		+ Cycle blending: Blend cycles to create seamless animations
+2. **AI Entity (Ancient Artifact):**
+	* Model:
+		+ Polycount: 5,000 - 10,000 polygons
+		+ File format: FBX or OBJ
+	* Texture:
+		+ Resolution: 1024 x 1024 pixels
+		+ File format: PNG or TGA
+	* Rigging:
+		+ Bone count: 6-8 bones (for animation and deformation)
+		+ Weight painting: Ensure smooth weight distribution for proper deformation and animation
+
+**Environmental Assets:**
+
+1. **Bamboo Forest:**
+	* Model:
+		+ Polycount: 50,000 - 100,000 polygons
+		+ File format: FBX or OBJ
+	* Texture:
+		+ Resolution: 4096 x 4096 pixels
+		+ File format: PNG or TGA
+2. **Ancient Temple (Background):**
+	* Model:
+		+ Polycount: 20,000 - 50,000 polygons
+		+ File format: FBX or OBJ
+	* Texture:
+		+ Resolution: 2048 x 2048 pixels
+		+ File format: PNG or TGA
+
+**Prop Assets:**
+
+1. **Symbolic Screen (for AI communication):**
+	* Model:
+		+ Polycount: 5,000 - 10,000 polygons
+		+ File format: FBX or OBJ
+	* Texture:
+		+ Resolution: 1024 x 1024 pixels
+		+ File format: PNG or TGA
+
+**Rigging and Animation Needs:**
+
+1. **Character Rigging:**
+	* Use a mixture of bone types (hierarchy, blend shape, etc.) to achieve smooth animation
+	* Ensure proper weight painting for deformation and animation
+2. **Animation:**
+	* Create keyframe animations for Ling's movements, expressions, and interactions with the AI
+	* Blend cycles to create seamless animations
+
+**Export Needs:**
+
+1. **3D Models:**
+	* Export as FBX or OBJ files for use in Blender or Unreal Engine
+2. **Textures:**
+	* Export as PNG or TGA files for use in Blender or Unreal Engine
+3. **Animation Data:**
+	* Export animation data (keyframes, cycles, etc.) as FBX or BVH files for use in Blender or Unreal Engine
+
+**Style Guide and Visual Elements:**
+
+1. **Color Palette:**
+	* Primary colors: Traditional Chinese-inspired hues (e.g., vermilion, indigo, gold)
+	* Secondary colors: Earthy tones (e.g., beige, brown, green)
+2. **Texture and Pattern:**
+	* Use traditional Chinese brushstrokes and ink textures to infuse digital work with authenticity
+3. **Lighting and Shading:**
+	* Employ soft, warm lighting to create a cozy atmosphere in the bamboo forest
+	* Use subtle shading techniques to capture the intricate details of the ancient temple
+
+By following these specs, we'll be able to create high-quality 3D assets that meet the project's objectives and deliver a captivating Ghibli-inspired animation.
