@@ -205,6 +205,7 @@ export function Viewport({
   qualityMode: QualityMode;
   stylePreset: string;
 }) {
+  const [autoOrbit, setAutoOrbit] = useState(true);
   return (
     <Card className="relative min-h-0 overflow-hidden">
       <CardHeader className="pb-3">
@@ -242,9 +243,13 @@ export function Viewport({
             <span className="text-sm text-foreground/65">Wireframe</span>
             <Switch checked={wireframe} onCheckedChange={onWireframeChange} />
           </div>
-          <Button variant="ghost" className="gap-2 rounded-2xl">
-            <RotateCw className="h-4 w-4" />
-            Auto Orbit
+          <Button
+            variant={autoOrbit ? "secondary" : "ghost"}
+            onClick={() => setAutoOrbit((s) => !s)}
+            className="gap-2 rounded-2xl"
+          >
+            <RotateCw className={`h-4 w-4 ${autoOrbit ? "animate-spin-slow" : ""}`} />
+            {autoOrbit ? "Auto Orbit: On" : "Auto Orbit"}
           </Button>
         </div>
 
@@ -259,9 +264,14 @@ export function Viewport({
               <PandaModel scale={1.3} position={[-1.65, -1.05, 0]} />
             </Suspense>
 
-            <OrbitControls enablePan={false} minDistance={3.4} maxDistance={8.5} />
+            <OrbitControls enablePan={false} minDistance={3.4} maxDistance={8.5} autoRotate={autoOrbit} autoRotateSpeed={0.6} />
             <OptionalComposer />
           </Canvas>
+
+          {/* Visual overlays (scanlines, film grain, vignette) */}
+          <div className="pointer-events-none absolute inset-0 scanlines opacity-25" />
+          <div className="pointer-events-none absolute inset-0 film-grain opacity-30" />
+          <div className="pointer-events-none absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent mix-blend-multiply" />
 
           <div className="pointer-events-none absolute left-4 top-4 flex gap-2">
             <Badge variant="ghost">Viewport A</Badge>
