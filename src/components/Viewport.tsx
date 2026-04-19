@@ -1,4 +1,4 @@
-import { useMemo, useRef, Suspense } from "react";
+import { useMemo, useRef, Suspense, useState, useEffect } from "react";
 import { Canvas, useFrame } from "@react-three/fiber";
 import { Float, OrbitControls, Sparkles, Stars, useGLTF, Html, useProgress } from "@react-three/drei";
 import { Eye, LayoutGrid, RotateCw, ScanLine } from "lucide-react";
@@ -20,9 +20,28 @@ function GLTFLoaderFallback() {
 }
 
 function PandaModel({ scale = 1, position = [0, -1.1, 0] }: { scale?: number; position?: [number, number, number] }) {
-  const gltf = useGLTF(
-    "https://raw.githubusercontent.com/KhronosGroup/glTF-Sample-Models/master/2.0/Panda/glTF-Binary/Panda.glb",
-  ) as any;
+  const localModel = "/models/antcell_ghibli_panda.glb";
+  const remoteModel =
+    "https://raw.githubusercontent.com/KhronosGroup/glTF-Sample-Models/master/2.0/Panda/glTF-Binary/Panda.glb";
+
+  const [modelUrl, setModelUrl] = useState<string>(remoteModel);
+
+  useEffect(() => {
+    let cancelled = false;
+    // Prefer a curated local GLB if present in /public/models/
+    fetch(localModel, { method: "HEAD" })
+      .then((res) => {
+        if (!cancelled && res.ok) setModelUrl(localModel);
+      })
+      .catch(() => {
+        /* ignore and use remote fallback */
+      });
+    return () => {
+      cancelled = true;
+    };
+  }, []);
+
+  const gltf = useGLTF(modelUrl) as any;
 
   const gradientMap = useMemo(() => {
     if (typeof document === "undefined") return null;
@@ -61,9 +80,9 @@ function PandaModel({ scale = 1, position = [0, -1.1, 0] }: { scale?: number; po
           gradientMap: gradientMap ?? undefined,
           map: map ?? undefined,
           normalMap: normalMap ?? undefined,
-          emissive: new THREE.Color("#020609"),
+          emissive: new THREE.Color("#072028"),
           metalness: 0.0,
-          roughness: 0.6,
+          roughness: 0.5,
         });
       }
     });
@@ -142,6 +161,39 @@ function CinemaAssembly({ wireframe }: { wireframe: boolean }) {
   );
 }
 
+// Optional postprocessing composer — dynamically imported so the app still runs
+// without the package installed. To enable bloom, install:
+// `npm install @react-three/postprocessing postprocessing`
+function OptionalComposer() {
+  const [mod, setMod] = useState<any>(null);
+
+  useEffect(() => {
+    let mounted = true;
+    import("@react-three/postprocessing")
+      .then((m) => {
+        if (mounted) setMod(m);
+      })
+      .catch(() => {
+        // optional dependency not present — silently fall back
+      });
+    return () => {
+      mounted = false;
+    };
+  }, []);
+
+  if (!mod) return null;
+
+  const { EffectComposer, Bloom, Vignette } = mod as any;
+
+  return (
+    // @ts-expect-error dynamic import types
+    <EffectComposer>
+      <Bloom kernelSize={2} luminanceThreshold={0.35} intensity={0.6} mipmapBlur />
+      <Vignette eskil={false} offset={0.06} darkness={0.36} />
+    </EffectComposer>
+  );
+}
+
 export function Viewport({
   wireframe,
   onWireframeChange,
@@ -208,6 +260,7 @@ export function Viewport({
             </Suspense>
 
             <OrbitControls enablePan={false} minDistance={3.4} maxDistance={8.5} />
+            <OptionalComposer />
           </Canvas>
 
           <div className="pointer-events-none absolute left-4 top-4 flex gap-2">
