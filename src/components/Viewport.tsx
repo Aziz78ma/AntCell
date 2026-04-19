@@ -183,12 +183,18 @@ function OptionalComposer() {
 
   if (!mod) return null;
 
-  const { EffectComposer, Bloom, Vignette } = mod as any;
+  const { EffectComposer, Bloom, Vignette, ChromaticAberration, Noise } = mod as any;
 
   return (
     // @ts-expect-error dynamic import types
     <EffectComposer>
       <Bloom kernelSize={2} luminanceThreshold={0.35} intensity={0.6} mipmapBlur />
+      {/* subtle chromatic aberration for cinematic warmth */}
+      {/* @ts-expect-error dynamic prop types */}
+      <ChromaticAberration offset={[0.0012, 0.0012]} />
+      {/* gentle film noise */}
+      {/* @ts-expect-error dynamic prop types */}
+      <Noise opacity={0.035} />
       <Vignette eskil={false} offset={0.06} darkness={0.36} />
     </EffectComposer>
   );
