@@ -201,3 +201,13 @@ body::after {
     transform: rotate(360deg);
   }
 }
+
+/* Subtle color grading overlay specifically for the viewport */
+.color-grade {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  background: linear-gradient(90deg, rgba(110,242,255,0.04), rgba(212,169,93,0.04));
+  mix-blend-mode: overlay;
+  opacity: 0.9;
+}

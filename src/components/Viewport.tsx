@@ -285,7 +285,7 @@ export function Viewport({
 
           <Canvas
             camera={{ position: [4.2, 2.4, 5.4], fov: 42 }}
-            gl={{ antialias: true, toneMapping: THREE.ACESFilmicToneMapping, toneMappingExposure: 1.06, outputEncoding: THREE.sRGBEncoding }}
+            gl={{ antialias: true, toneMapping: THREE.ACESFilmicToneMapping, toneMappingExposure: 1.06, colorSpace: 'srgb' }}
           >
             <fog attach="fog" args={["#05070d", 8, 22]} />
             <CinemaAssembly wireframe={wireframe} />
@@ -298,9 +298,10 @@ export function Viewport({
             <OptionalComposer />
           </Canvas>
 
-          {/* Visual overlays (scanlines, film grain, vignette) */}
+          {/* Visual overlays (scanlines, film grain, vignette, color grade) */}
           <div className="pointer-events-none absolute inset-0 scanlines opacity-25" />
           <div className="pointer-events-none absolute inset-0 film-grain opacity-30" />
+          <div className="pointer-events-none absolute inset-0 color-grade" />
           <div className="pointer-events-none absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent mix-blend-multiply" />
 
           <div className="pointer-events-none absolute left-4 top-4 flex gap-2">
