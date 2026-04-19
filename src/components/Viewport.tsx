@@ -262,7 +262,10 @@ export function Viewport({
           <div className="relative min-h-0 overflow-hidden rounded-[28px] border border-border/70 bg-[#03060b]">
             <div className="pointer-events-none absolute inset-0 bg-[radial-gradient(circle_at_top,rgba(110,242,255,0.12),transparent_28%),radial-gradient(circle_at_bottom_right,rgba(212,169,93,0.10),transparent_24%)]" />
 
-          <Canvas camera={{ position: [4.2, 2.4, 5.4], fov: 42 }}>
+          <Canvas
+            camera={{ position: [4.2, 2.4, 5.4], fov: 42 }}
+            gl={{ antialias: true, toneMapping: THREE.ACESFilmicToneMapping, toneMappingExposure: 1.06, outputEncoding: THREE.sRGBEncoding }}
+          >
             <fog attach="fog" args={["#05070d", 8, 22]} />
             <CinemaAssembly wireframe={wireframe} />
 
