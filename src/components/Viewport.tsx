@@ -183,18 +183,39 @@ function OptionalComposer() {
 
   if (!mod) return null;
 
-  const { EffectComposer, Bloom, Vignette, ChromaticAberration, Noise } = mod as any;
+  const {
+    EffectComposer,
+    Bloom,
+    Vignette,
+    ChromaticAberration,
+    Noise,
+    DepthOfField,
+    SMAA,
+  } = mod as any;
 
   return (
     // @ts-expect-error dynamic import types
     <EffectComposer>
-      <Bloom kernelSize={2} luminanceThreshold={0.35} intensity={0.6} mipmapBlur />
+      {/* Conditional SMAA anti-aliasing when provided */}
+      {SMAA ? <SMAA /> : null}
+
+      {/* Stronger cinematic bloom (safe defaults) */}
+      <Bloom kernelSize={3} luminanceThreshold={0.2} intensity={1.0} mipmapBlur />
+
+      {/* Depth of field for cinematic feel when available */}
+      {DepthOfField ? (
+        // @ts-expect-error dynamic prop types
+        <DepthOfField focusDistance={0.0} focalLength={0.035} bokehScale={2.4} height={480} />
+      ) : null}
+
       {/* subtle chromatic aberration for cinematic warmth */}
       {/* @ts-expect-error dynamic prop types */}
-      <ChromaticAberration offset={[0.0012, 0.0012]} />
+      {ChromaticAberration ? <ChromaticAberration offset={[0.0015, 0.0012]} /> : null}
+
       {/* gentle film noise */}
       {/* @ts-expect-error dynamic prop types */}
-      <Noise opacity={0.035} />
+      {Noise ? <Noise opacity={0.03} /> : null}
+
       <Vignette eskil={false} offset={0.06} darkness={0.36} />
     </EffectComposer>
   );
